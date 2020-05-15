@@ -214,9 +214,9 @@ def run(filename):
 
         curr += 1
         if(num_frames < 100):
-            save_extension(screen, 'anim/' + name + '%02d'%cur_frame)
+            save_extension(screen, 'anim/' + name + '%02d'%curr)
         else:
-            save_extension(screen, 'anim/' + name + '%03d'%cur_frame)
+            save_extension(screen, 'anim/' + name + '%03d'%curr)
 
     if(num_frames > 1):
         make_animation(name)
