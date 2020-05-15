@@ -212,7 +212,7 @@ def run(filename):
                 save_extension(screen, args[0])
             # end operation loop
 
-        cur_frame += 1
+        curr += 1
         if(num_frames < 100):
             save_extension(screen, 'anim/' + name + '%02d'%cur_frame)
         else:
