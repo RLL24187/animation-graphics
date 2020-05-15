@@ -65,17 +65,17 @@ def second_pass( commands, num_frames ):
         if(cmd['op'] == 'vary'):
             start_frame = int(cmd['args'][0])
             end_frame = int(cmd['args'][1])
-            knoblist0 = cmd['args'][2]
-            knoblist1 = cmd['args'][3]
+            value0 = cmd['args'][2]
+            value1 = cmd['args'][3]
 
-            deltaKnob = (knoblist1 - knoblist0)/(end_frame - start_frame)
+            deltaKnob = (value1 - value0)/(end_frame - start_frame)
             knob = cmd['knob']
-            curKnob = knoblist0
+            curr = value0
 
             frame = start_frame
             while (frame <= end_frame):
-                frames[frame][knob] = curKnob
-                curKnob += deltaKnob
+                frames[frame][knob] = curr
+                curr += deltaKnob
                 frame += 1
 
     return frames
