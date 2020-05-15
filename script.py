@@ -60,6 +60,7 @@ def first_pass( commands ):
   appropirate value.
   ===================="""
 def second_pass( commands, num_frames ):
+    frames = [ {} for i in range(num_frames) ]
     for cmd in commands:
         if(cmd['op'] == 'vary'):
             start_frame = int(cmd['args'][0])
