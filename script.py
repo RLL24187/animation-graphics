@@ -209,7 +209,7 @@ def run(filename):
             elif c == 'display':
                 display(screen)
             elif c == 'save':
-                save_extension(screen, args[0])
+                save_extension(screen, args[0] + ".png")
             # end operation loop
 
         curr += 1
