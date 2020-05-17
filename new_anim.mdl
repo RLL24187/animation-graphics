@@ -6,5 +6,27 @@ constants yellow_plastic 0.0	0.0	0.0	0.5	0.5	0.0	0.60	0.60	0.50	.25
 constants obsidian	0.05375	0.05	0.06625	0.18275	0.17	0.22525	0.332741	0.328634	0.346435	0.3
 push
 move 250 250 0
+push
 scale 2 1 1
 sphere 0 0 0 100 turquoise
+pop
+push
+move 30 0 90
+rotate x 30 flappy0
+rotate x -60 flappy1
+rotate x 60 flappy2
+rotate x -30 flappy3
+box 0 10 -150 30 10 150 turquoise
+pop
+push
+move 39 0 -90
+box 0 10 150 10 150 brass
+rotate x -30 flappy0
+rotate x 60 flappy1
+rotate x -60 flappy2
+rotate x 30 flappy3
+
+vary flappy0 0 16 0 1
+vary flappy1 17 50 0 1
+vary flappy2 51 84 0 1
+vary flappy3 85 99 0 1
