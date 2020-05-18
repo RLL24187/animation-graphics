@@ -15,7 +15,6 @@ scale 1.1 1.1 1
 sphere turquoise 0 0 0 75
 pop
 
-#wings
 push
 move 30 0 -100
 rotate x 30 flappy_zero
@@ -28,7 +27,6 @@ rotate x -30 flappy_zero
 box blue_plastic 0 10 80 70 10 80
 pop
 
-#eyes
 push
 move 75 10 10
 sphere brass 0 0 0 10
