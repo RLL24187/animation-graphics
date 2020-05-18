@@ -11,7 +11,7 @@ rotate x 15
 rotate y 15
 push
 scale 1.5 1 .75
-sphere turquoise 0 0 0 100
+sphere brass 0 0 0 100
 pop
 
 push
