@@ -7,6 +7,7 @@ constants obsidian 0.05375 0.05 0.06625 0.18275 0.17 0.22525 0.332741 0.328634 0
 
 push
 move 250 250 0
+move 0 20 0 flappy
 rotate x 15
 rotate y -15
 
@@ -40,10 +41,13 @@ sphere obsidian 0 0 15 10
 pop
 
 push
-move -75 0 0
-rotate z 15 updown
-box blue_plastic -50 20 10 50 10 20
+move -70 0 0
+rotate z -15 updown
+box blue_plastic -50 20 20 50 5 40
 
 vary flappy 0 29 0 1
+vary flappy 30 59 1 0
 vary updown 0 14 0 1
 vary updown 15 29 1 0
+vary updown 30 44 0 1
+vary updown 45 59 1 0
