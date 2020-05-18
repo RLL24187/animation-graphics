@@ -24,7 +24,7 @@ pop
 
 push
 move 30 0 -100
-box brass 0 10 80 70 10 80
+box yellow_plastic 0 10 80 40 40 40
 rotate y -10
 rotate x -30 flappy_zero
 pop
