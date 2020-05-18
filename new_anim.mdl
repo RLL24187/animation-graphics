@@ -13,20 +13,13 @@ pop
 push
 move 30 0 90
 rotate x 30 flappy_zero
-rotate x -60 flappy_one
-rotate x 60 flappy_two
-rotate x -30 flappy_three
+
 box 0 10 -150 30 10 150 turquoise
 pop
 push
 move 39 0 -90
 box 0 10 150 10 150 brass
 rotate x -30 flappy_zero
-rotate x 60 flappy_one
-rotate x -60 flappy_two
-rotate x 30 flappy_three
 
-vary flappy_zero 0 4 0 1
-vary flappy_one 5 14 0 1
-vary flappy_two 15 24 0 1
-vary flappy_three 25 29 0 1
+
+vary flappy_zero 0 30 0 1
