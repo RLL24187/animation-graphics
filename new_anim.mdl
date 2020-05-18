@@ -19,7 +19,7 @@ pop
 push
 move -30 0 -70
 rotate x 30 flappy
-box blue_plastic 0 10 80 70 10 80
+box blue_plastic 0 10 -80 70 10 80
 pop
 
 push
