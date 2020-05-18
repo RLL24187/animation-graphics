@@ -16,7 +16,7 @@ sphere turquoise 0 0 0 75
 pop
 
 push
-move -30 0 -70
+move -30 0 -40
 rotate x 30 flappy_zero
 box brass 0 10 -80 70 10 80
 pop
@@ -28,11 +28,11 @@ box blue_plastic 0 10 80 70 10 80
 pop
 
 push
-move 75 10 15
-sphere obsidian 0 0 0 10
+move 75 -5 0
+sphere brass 0 0 0 10
 pop
 
 push
-move 75 10 15
-sphere blue_plastic 0 0 0 10
+move 70 10 -15
+sphere obsidian 0 0 0 10
 vary flappy_zero 0 29 0 1
