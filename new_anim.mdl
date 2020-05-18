@@ -8,13 +8,14 @@ constants obsidian 0.05375 0.05 0.06625 0.18275 0.17 0.22525 0.332741 0.328634 0
 push
 move 250 250 0
 rotate x -25
-rotate y 25
+rotate y -25
 
 push
-scale .5 .5 .5
-sphere turquoise 0 0 0 100
+scale 1.1 1.1 1
+sphere turquoise 0 0 0 75
 pop
 
+#wings
 push
 move 30 0 -100
 rotate x 30 flappy_zero
@@ -22,9 +23,13 @@ box brass 0 10 -80 70 10 80
 pop
 
 push
-move 30 0 100
+move 30 0 70
 rotate x -30 flappy_zero
 box blue_plastic 0 10 80 70 10 80
 pop
 
+#eyes
+push
+move 75 10 10
+sphere brass 0 0 0 10
 vary flappy_zero 0 29 0 1
