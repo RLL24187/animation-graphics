@@ -16,15 +16,13 @@ sphere turquoise 0 0 0 100
 pop
 
 push
-move 30 0 100
-rotate y 10
+move 30 0 -100
 rotate x 30 flappy_zero
 box brass 0 10 -80 70 10 80
 pop
 
 push
-move 30 0 -100
-rotate y -10
+move 30 0 100
 rotate x -30 flappy_zero
 box blue_plastic 0 10 80 70 10 80
 pop
