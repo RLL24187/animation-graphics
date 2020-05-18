@@ -11,19 +11,19 @@ rotate x 15
 rotate y -15
 
 push
-scale 1.1 1.1 1
+scale 1.1 .9 1
 sphere turquoise 0 0 0 75
 pop
 
 push
 move -30 0 0
-rotate x 30 flappy_zero
+rotate x 30 flappy
 box blue_plastic 0 10 -80 70 10 80
 pop
 
 push
 move -30 0 70
-rotate x -30 flappy_zero
+rotate x -30 flappy
 box blue_plastic 0 10 80 70 10 80
 pop
 
@@ -41,6 +41,9 @@ pop
 
 push
 move -75 0 0
+rotate z 15 updown
 box blue_plastic -50 20 10 50 10 20
 
-vary flappy_zero 0 29 0 1
+vary flappy 0 29 0 1
+vary updown 0 14 0 1
+vary updown 15 29 1 0
