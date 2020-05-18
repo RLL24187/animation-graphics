@@ -29,13 +29,19 @@ pop
 
 push
 move 75 -5 0
-scale 5 1 2
+scale 4 1 2
 sphere brass 0 0 0 8
 pop
 
 push
 move 75 10 0
 sphere blue_plastic 0 0 -15 10
-sphere blue_plastic 0 0 15 10
+sphere obsidian 0 0 15 10
+pop
+
+push
+move -75 0 0
+scale 5 1 5
+sphere blue_plastic 0 0 5
 
 vary flappy_zero 0 29 0 1
