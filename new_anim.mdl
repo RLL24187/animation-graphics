@@ -18,7 +18,7 @@ pop
 push
 move -30 0 0
 rotate x 30 flappy_zero
-box brass 0 10 -80 70 10 80
+box blue_plastic 0 10 -80 70 10 80
 pop
 
 push
@@ -35,13 +35,12 @@ pop
 
 push
 move 75 10 0
-sphere blue_plastic 0 0 -15 10
+sphere obsidian 0 0 -15 10
 sphere obsidian 0 0 15 10
 pop
 
 push
 move -75 0 0
-scale 5 1 5
-sphere blue_plastic 0 0 5
+box blue_plastic -50 20 10 50 10 20
 
 vary flappy_zero 0 29 0 1
